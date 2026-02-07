@@ -12,6 +12,55 @@
     body {
       background-color: #f4f8ff;
     }
+     /* Navbar customization */
+    .navbar {
+      background: linear-gradient(to right, #003cff, #007bff);
+    }
+
+    .navbar-brand {
+      font-size: 28px;
+      font-weight: bold;
+      color: #fff !important;
+    }
+     /* Category bar */
+    .category-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .category-item {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 50px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .category-item:hover {
+      background-color: #ffdd57;
+      color: #000;
+      transform: scale(1.05);
+    }
+
+
+    .nav-link {
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      color: #ffdd57 !important;
+    }
+
+    .btn-custom {
+      border-radius: 25px;
+      font-weight: 600;
+    }
 
     /* Navbar */
     .navbar {
@@ -136,6 +185,18 @@
 </nav>
 
 <!-- end of navbar -->
+<!-- Category Bar  -->
+<div class="container">
+  <div class="category-list">
+    <a href="sportbike.html"><button class="btn btn-secondary filter-btn">Sport Bikes</button></a>
+    <a href="cruiserbike.html"><button class="btn btn-success filter-btn">Cruiser Bikes</button></a>
+    <a href="adventurebike.html"><button class="btn btn-warning filter-btn">Adventure Bikes</button></a>
+    <a href="racingbike.html"><button class="btn btn-primary filter-btn">Racing Bikes</button></a>
+    <a href="electricbike.html"><button class="btn btn-info filter-btn">Electric Bikes</button></a>
+    
+
+  </div>
+</div>
 
 <!-- Hero Section -->
 <div class="hero">
